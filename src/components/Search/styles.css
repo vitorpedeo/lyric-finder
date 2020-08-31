@@ -1,0 +1,77 @@
+form {
+  margin: 40px auto 0 auto;
+  max-width: 670px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > h1 {
+  letter-spacing: 0.1rem;
+}
+
+form > h1 span {
+  color: var(--primary-color);
+}
+
+form > p {
+  margin: 10px 0 40px 0;
+  font-size: 1.25rem;
+}
+
+.input {
+  margin-bottom: 20px;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+}
+
+.input:focus-within {
+  box-shadow: 0 0 15px var(--primary-color);
+}
+
+.input input {
+  padding-left: 60px;
+  color: var(--primary-text-color);
+  font-size: 1.25rem;
+
+  flex: 1;
+}
+
+.input input::placeholder {
+  color: var(--placeholder-color);
+}
+
+.input svg {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+}
+
+form > button {
+  margin: 30px 0;
+  padding: 20px 0;
+  width: 190px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form > button:hover {
+  filter: brightness(80%);
+}
+
+form > button:disabled {
+  background: #ccc;
+  cursor: default;
+}

@@ -1,0 +1,41 @@
+nav {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 980px;
+  height: 110px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > p {
+  color: var(--primary-text-color);
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: default;
+}
+
+nav > p span {
+  margin-right: 8px;
+  color: var(--primary-color);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+nav > ul {
+  list-style: none;
+
+  display: flex;
+}
+
+nav > ul li a {
+  padding: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+nav > ul li a:hover {
+  color: var(--primary-color);
+}
