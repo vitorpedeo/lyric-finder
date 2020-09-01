@@ -39,3 +39,15 @@ nav > ul li a {
 nav > ul li a:hover {
   color: var(--primary-color);
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    max-width: 300px;
+
+    justify-content: center;
+  }
+
+  nav > ul {
+    display: none;
+  }
+}
