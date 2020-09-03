@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align='center' >
+  <img src='./.github/logo.png' height='40px' />
+</p>
 
-## Available Scripts
+<p align='center' >
+  <a href='https://www.linkedin.com/in/vitor-pereira-309a7319b/'>
+    <img src='https://img.shields.io/badge/Made%20By-Vitor%20Pereira-brightgreen' />
+  </a>
+  <img src='https://img.shields.io/github/languages/top/vitorpedeo/lyric-finder?color=brightgreen' /> 
+  <img src='https://img.shields.io/github/search/vitorpedeo/lyric-finder/react?color=brightgreen' /> 
+</p>
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+<p align='center' >
+  <img src='./.github/screenMockup.png' height='250px' />
+  <img src='./.github/mobileMockup.png'  height='220px' />
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🎵 Sobre o projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Lyric Finder é uma simples aplicação onde você pode encontrar a letra de suas músicas favoritas. Basta informar o artista, sua música e boom... encontramos a letra! Variando de Sorriso Maroto até Iron Maiden, a [API](https://lyricsovh.docs.apiary.io/) utilizada é bem rica e muito provavelmente terá as informações de sua música de desejo.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias utilizadas
 
-### `yarn build`
+Para esse projeto, eu utilizei [ReactJS](https://pt-br.reactjs.org/) com as seguintes dependências em destaque:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [axios](https://www.npmjs.com/package/axios) - responsável por lidar com as requisições HTTP;
+- [react-loading](https://www.npmjs.com/package/react-loading) - disponibiliza uma gama de componentes para representar o loading dos dados da aplicação.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔨 Instalação
 
-### `yarn eject`
+Antes de tudo, certifique-se que o [yarn](https://yarnpkg.com/) esteja instalado em sua máquina.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone o repositório e vá para a raíz do projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell
+git clone https://github.com/vitorpedeo/lyric-finder.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```shell
+cd lyric-finder
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Instale todas as dependências
 
-## Learn More
+```shell
+yarn install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inicie a aplicação
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```shell
+yarn start
+```
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made with ❤️.
