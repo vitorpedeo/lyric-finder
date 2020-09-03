@@ -2,6 +2,8 @@
   <img src='./.github/logo.png' height='40px' />
 </p>
 
+---
+
 <p align='center' >
   <a href='https://www.linkedin.com/in/vitor-pereira-309a7319b/'>
     <img src='https://img.shields.io/badge/Made%20By-Vitor%20Pereira-brightgreen' />
@@ -9,8 +11,6 @@
   <img src='https://img.shields.io/github/languages/top/vitorpedeo/lyric-finder?color=brightgreen' /> 
   <img src='https://img.shields.io/github/search/vitorpedeo/lyric-finder/react?color=brightgreen' /> 
 </p>
-
----
 
 <p align='center' >
   <img src='./.github/screenMockup.png' height='250px' />
